@@ -30,37 +30,133 @@
       "id": "1",
       "name": "Nike Air Max Pulse",
       "description": "Moderan lifestyle runner sa udobnim djonom i prepoznatljivim Air Max izgledom za gradske kombinacije.",
-      "price": 16499
+      "price": 16499,
+      "gender": "muske",
+      "brand": "Nike",
+      "category": "lifestyle",
+      "sizes": [41, 42, 43, 44, 45],
+      "inStock": true
     },
     {
       "id": "2",
       "name": "Adidas Campus 00s",
-      "description": "Retro silueta sa debelim jezikom i mekisom od prevrnute koze, idealna za svakodnevni streetwear styling.",
-      "price": 13990
+      "description": "Retro silueta sa debljim jezikom i gornjistem od prevrnute koze za opusten streetwear izgled.",
+      "price": 13990,
+      "gender": "muske",
+      "brand": "Adidas",
+      "category": "lifestyle",
+      "sizes": [40, 41, 42, 43, 44],
+      "inStock": true
     },
     {
       "id": "3",
       "name": "New Balance 530",
       "description": "Lagane patike inspirisane running estetikom sa prozracnom mrezicom i neutralnim tonovima.",
-      "price": 14999
+      "price": 14999,
+      "gender": "muske",
+      "brand": "New Balance",
+      "category": "running",
+      "sizes": [41, 42, 43, 44],
+      "inStock": true
     },
     {
       "id": "4",
       "name": "Puma RS-X Heritage",
-      "description": "Izrazena chunky forma, stabilan djjon i energicne boje za korisnike koji traze upadljiv par patika.",
-      "price": 12890
+      "description": "Chunky silueta i stabilan djon za korisnike koji traze upadljiv i udoban par patika.",
+      "price": 12890,
+      "gender": "muske",
+      "brand": "Puma",
+      "category": "lifestyle",
+      "sizes": [40, 41, 42, 43, 44, 45],
+      "inStock": true
     },
     {
       "id": "5",
       "name": "Converse Chuck 70 High",
       "description": "Klasican platneni model sa jacom konstrukcijom i vintage detaljima koji radi uz skoro svaku kombinaciju.",
-      "price": 9990
+      "price": 9990,
+      "gender": "muske",
+      "brand": "Converse",
+      "category": "casual",
+      "sizes": [41, 42, 43, 44],
+      "inStock": true
     },
     {
       "id": "6",
       "name": "Asics Gel-1130",
       "description": "Tehnicki izgled i GEL amortizacija cine ovaj model odlicnim izborom za duze setnje i aktivan dan.",
-      "price": 15750
+      "price": 15750,
+      "gender": "muske",
+      "brand": "Asics",
+      "category": "running",
+      "sizes": [41, 42, 43, 44, 45],
+      "inStock": true
+    },
+    {
+      "id": "7",
+      "name": "Nike Air Force 1 Shadow",
+      "description": "Zenski model sa slojevitim detaljima i prepoznatljivom Air Force siluetom za svaki dan.",
+      "price": 17190,
+      "gender": "zenske",
+      "brand": "Nike",
+      "category": "lifestyle",
+      "sizes": [36, 37, 38, 39, 40],
+      "inStock": true
+    },
+    {
+      "id": "8",
+      "name": "Adidas Gazelle Bold",
+      "description": "Popularan zenski model sa platformom i retro izgledom koji se lako uklapa uz svakodnevne kombinacije.",
+      "price": 14490,
+      "gender": "zenske",
+      "brand": "Adidas",
+      "category": "lifestyle",
+      "sizes": [36, 37, 38, 39, 40],
+      "inStock": true
+    },
+    {
+      "id": "9",
+      "name": "New Balance 327",
+      "description": "Zenski retro runner sa laganom konstrukcijom i prepoznatljivim dizajnom inspirisanim sedamdesetim.",
+      "price": 15200,
+      "gender": "zenske",
+      "brand": "New Balance",
+      "category": "running",
+      "sizes": [36, 37, 38, 39, 40],
+      "inStock": true
+    },
+    {
+      "id": "10",
+      "name": "Puma Cali Dream",
+      "description": "Cist i moderan zenski model sa nesto debljim djonom i minimalistickim gornjistem.",
+      "price": 11990,
+      "gender": "zenske",
+      "brand": "Puma",
+      "category": "casual",
+      "sizes": [36, 37, 38, 39],
+      "inStock": true
+    },
+    {
+      "id": "11",
+      "name": "Asics Gel-NYC",
+      "description": "Zenska kombinacija retro running estetike i savremene udobnosti za celodnevno nosenje.",
+      "price": 18290,
+      "gender": "zenske",
+      "brand": "Asics",
+      "category": "running",
+      "sizes": [37, 38, 39, 40],
+      "inStock": true
+    },
+    {
+      "id": "12",
+      "name": "Converse Run Star Hike",
+      "description": "Zenski model sa naglasenim djonom i modernom interpretacijom klasicne Converse siluete.",
+      "price": 13490,
+      "gender": "zenske",
+      "brand": "Converse",
+      "category": "casual",
+      "sizes": [36, 37, 38, 39, 40],
+      "inStock": true
     }
   ]
 }

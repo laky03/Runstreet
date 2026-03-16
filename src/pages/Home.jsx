@@ -45,24 +45,26 @@ function Home() {
         </div>
 
         <div className="grid gap-5">
-          <div className="glass-panel rounded-[2rem] p-6">
+          <div className="glass-panel rounded-[2rem] p-6 ">
             <p className="text-sm uppercase tracking-[0.3em] text-amber-600">Fokus</p>
             <p className="mt-3 text-3xl font-bold text-slate-950">Drops, limited modeli i everyday pairs</p>
           </div>
-          <div className="glass-panel rounded-[2rem] p-6">
-            <div className="grid grid-cols-3 gap-3 text-center">
-              <div>
-                <p className="text-3xl font-black text-slate-950">24h</p>
-                <p className="muted-text text-sm">obrada porudzbina</p>
-              </div>
-              <div>
-                <p className="text-3xl font-black text-slate-950">100%</p>
-                <p className="muted-text text-sm">originalni modeli</p>
-              </div>
-              <div>
-                <p className="text-3xl font-black text-slate-950">6</p>
-                <p className="muted-text text-sm">starter modela</p>
-              </div>
+          <div className="glass-panel flex items-center justify-center rounded-[2rem] p-6">
+            <div className="grid w-full place-items-center gap-4 text-center sm:grid-cols-3">
+               <div className="flex min-h-24 w-full flex-col items-center justify-center text-center">
+                  <p className="text-3xl font-black text-slate-950">24h</p>
+                  <p className="muted-text text-sm">obrada porudzbina</p>
+                </div>
+
+                <div className="flex min-h-24 w-full flex-col items-center justify-center text-center">
+                  <p className="text-3xl font-black text-slate-950">100%</p>
+                  <p className="muted-text text-sm">originalni modeli</p>
+                </div>
+
+                <div className="flex min-h-24 w-full flex-col items-center justify-center text-center">
+                  <p className="text-3xl font-black text-slate-950">6</p>
+                  <p className="muted-text text-sm">starter modela</p>
+                </div>
             </div>
           </div>
         </div>
@@ -95,7 +97,7 @@ function Home() {
                     <p className="text-xs uppercase tracking-[0.28em] text-cyan-700">Sneaker</p>
                     <h3 className="mt-2 text-2xl font-bold text-slate-950">{product.name}</h3>
                   </div>
-                  <span className="rounded-full bg-amber-400 px-3 py-1 text-sm font-bold text-slate-950">
+                  <span className="text-nowrap rounded-full bg-amber-400 px-3 py-1 text-sm font-bold text-slate-950">
                     {product.price} RSD
                   </span>
                 </div>
