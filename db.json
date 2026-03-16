@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "pera",
+      "password": "lozinka",
+      "role": "user"
+    },
+    {
+      "id": "41e7",
+      "username": "jana",
+      "password": "123",
+      "role": "user"
+    },
+    {
+      "id": "fad9",
+      "username": "lazar",
+      "password": "lazar2003",
+      "role": "user"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Nike Air Max Pulse",
+      "description": "Moderan lifestyle runner sa udobnim djonom i prepoznatljivim Air Max izgledom za gradske kombinacije.",
+      "price": 16499
+    },
+    {
+      "id": "2",
+      "name": "Adidas Campus 00s",
+      "description": "Retro silueta sa debelim jezikom i mekisom od prevrnute koze, idealna za svakodnevni streetwear styling.",
+      "price": 13990
+    },
+    {
+      "id": "3",
+      "name": "New Balance 530",
+      "description": "Lagane patike inspirisane running estetikom sa prozracnom mrezicom i neutralnim tonovima.",
+      "price": 14999
+    },
+    {
+      "id": "4",
+      "name": "Puma RS-X Heritage",
+      "description": "Izrazena chunky forma, stabilan djjon i energicne boje za korisnike koji traze upadljiv par patika.",
+      "price": 12890
+    },
+    {
+      "id": "5",
+      "name": "Converse Chuck 70 High",
+      "description": "Klasican platneni model sa jacom konstrukcijom i vintage detaljima koji radi uz skoro svaku kombinaciju.",
+      "price": 9990
+    },
+    {
+      "id": "6",
+      "name": "Asics Gel-1130",
+      "description": "Tehnicki izgled i GEL amortizacija cine ovaj model odlicnim izborom za duze setnje i aktivan dan.",
+      "price": 15750
+    }
+  ]
+}
