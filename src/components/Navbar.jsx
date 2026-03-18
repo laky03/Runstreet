@@ -28,9 +28,43 @@ function Navbar() {
 
         <div className="flex flex-wrap items-center gap-2">
           
-          <Link to="/" className={linkClass('/')}>
+          {/* <Link to="/" className={linkClass('/')}>
             Ponuda
-          </Link>
+          </Link> */}
+   
+          <div className="group relative">
+            <Link
+              to="/"
+              className={`rounded-full px-4 py-2 text-sm font-medium transition ${
+              location.pathname === '/' || location.pathname === '/muske' || location.pathname === '/zenske'
+              ? 'bg-amber-400 text-slate-950'
+              : 'text-slate-700 hover:bg-slate-100 hover:text-slate-950'
+              }`}
+              >
+               Ponuda ▽
+            </Link>
+            <div className="invisible absolute left-0 top-full z-30 mt-2 w-52 rounded-2xl border border-slate-
+            200 bg-white p-2 opacity-0 shadow-xl transition-all duration-200 group-hover:visible group-
+            hover:opacity-100">
+                <Link
+                  to="/muske"
+                  className="block rounded-xl px-4 py-3 text-sm font-medium text-slate-700 transition hover:bg-
+            slate-100 hover:text-slate-950"
+                >
+                  Muski proizvodi
+                </Link>
+
+                <Link
+                  to="/zenske"
+                  className="block rounded-xl px-4 py-3 text-sm font-medium text-slate-700 transition hover:bg-
+            slate-100 hover:text-slate-950"
+                >
+                  Zenski proizvodi
+              </Link>
+            </div>
+          </div>
+
+
            <Link to="/about" className={linkClass('/about')}>
               O nama
             </Link> 

@@ -7,7 +7,10 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import ProductDetails from './pages/ProductDetails';
 import Register from './pages/Register';
-import About from './pages/About'
+import About from './pages/About';
+import MenShoes from './pages/MenShoes';
+import WomenShoes from './pages/WomenShoes';
+
 
 function App() {
   return (
@@ -21,6 +24,8 @@ function App() {
           <Route path="/products/:id" element={<ProductDetails />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/about" element={<About />} />
+          <Route path="/muske" element={<MenShoes />} />
+          <Route path="/zenske" element={<WomenShoes />} />
           <Route
             path="/admin"
             element={
